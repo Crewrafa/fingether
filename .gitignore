@@ -63,3 +63,6 @@ supabase/.env
 
 # Local git backup
 .git.backup-*/
+
+# Secrets reales (template está en Config.example.xcconfig)
+Spendly/App/Config.xcconfig

@@ -23,6 +23,27 @@ Proyecto solo del autor — diseño, arquitectura, backend, frontend, IA, moneti
 
 ---
 
+## Screenshots
+
+<!--
+Cuando tengas las capturas, agrégalas en docs/screenshots/ y reemplaza
+los placeholders de abajo. Sugerencia: PNG a 1290×2796 (iPhone 15 Pro Max).
+-->
+
+<div align="center">
+
+| Onboarding | Dashboard | Mascota |
+| :---: | :---: | :---: |
+| _pendiente_ | _pendiente_ | _pendiente_ |
+
+| Insights IA | Presupuestos | Paywall |
+| :---: | :---: | :---: |
+| _pendiente_ | _pendiente_ | _pendiente_ |
+
+</div>
+
+---
+
 ## El producto
 
 Llevar las cuentas en pareja suele ser una discusión disfrazada de hoja de cálculo. **Fingether** convierte ese seguimiento en una mecánica de juego compartida: cada decisión financiera —un gasto, un ahorro, cumplir el presupuesto— alimenta o lastima a una **mascota Tamagotchi** que ambos cuidan.
@@ -177,6 +198,32 @@ docs/
 └── SQL_MIGRATION_GAPS.md         # Gaps detectados en migrations
 
 PM_REVIEW.md                      # Notas de producto / scope / decisiones
+```
+
+---
+
+## Build local (referencia, no para reuso)
+
+> Recordatorio: el código no es reutilizable bajo ningún uso. Esta sección existe para que un evaluador pueda compilar y probar localmente si lo acuerda con el autor.
+
+```bash
+# 1. Generar el .xcodeproj (usamos XcodeGen)
+brew install xcodegen
+xcodegen generate
+
+# 2. Configurar credenciales de Supabase
+cp Spendly/App/Config.example.xcconfig Spendly/App/Config.xcconfig
+# Editar Config.xcconfig con SUPABASE_URL y SUPABASE_ANON_KEY reales
+
+# 3. Aplicar migraciones SQL en tu proyecto Supabase
+# Correr en orden: supabase/migrations/001_*.sql, luego 002_*.sql
+
+# 4. Desplegar Edge Function (requiere supabase CLI)
+supabase functions deploy generate-insights
+supabase secrets set ANTHROPIC_API_KEY=tu_key_de_claude
+
+# 5. Abrir y compilar en Xcode 15+
+open Spendly.xcodeproj
 ```
 
 ---

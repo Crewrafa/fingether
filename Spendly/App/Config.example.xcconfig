@@ -1,0 +1,15 @@
+// ─────────────────────────────────────────────────────────────
+// Fingether — Config template
+// ─────────────────────────────────────────────────────────────
+// Copia este archivo a Config.xcconfig y reemplaza con tus
+// credenciales reales de Supabase. Config.xcconfig está
+// gitignoreado para que no se suban credenciales por accidente.
+//
+//   cp Spendly/App/Config.example.xcconfig Spendly/App/Config.xcconfig
+//
+// SUPABASE_URL: URL de tu proyecto Supabase. El $() escapa los // dentro de xcconfig.
+// SUPABASE_ANON_KEY: anon/public key del proyecto.
+// ─────────────────────────────────────────────────────────────
+
+SUPABASE_URL = https:$()/your-project.supabase.co
+SUPABASE_ANON_KEY = your-anon-key-here
