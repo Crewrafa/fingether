@@ -1,0 +1,83 @@
+Fingether — Proprietary License
+Copyright (c) 2026 Rafael Báez. All Rights Reserved.
+
+This repository and all of its contents — including but not limited to source
+code, SQL schemas, Edge Functions, design assets, documentation, and prompt
+templates — are the exclusive intellectual property of Rafael Báez (the
+"Author") and are made publicly viewable strictly for portfolio and evaluation
+purposes.
+
+================================================================================
+PERMITTED
+================================================================================
+
+You MAY:
+
+  1. View the source code in this repository through the GitHub web interface.
+  2. Read the code to evaluate the technical work of the Author for hiring,
+     consulting engagements, investment, partnership, or similar professional
+     evaluation contexts.
+  3. Quote short excerpts (up to 25 lines) of code in articles, reviews, or
+     technical commentary, provided the Author is credited and a link to this
+     repository is included.
+
+================================================================================
+PROHIBITED — without explicit prior written permission from the Author
+================================================================================
+
+You MAY NOT:
+
+  1. Clone, fork, download, or otherwise reproduce this repository in whole or
+     in substantial part, except for the strictly transient copy that GitHub
+     creates to display the code in your browser.
+  2. Use any portion of this code, schema, prompts, or design — in original or
+     modified form — in any product, service, application, or codebase,
+     whether commercial, non-commercial, personal, academic, or open source.
+  3. Build, distribute, sublicense, sell, or host any derivative work based on
+     this repository or any subset of it.
+  4. Use the names "Fingether", "Spendly", or any associated branding,
+     trademarks, or design language in any product or marketing material.
+  5. Train, fine-tune, or otherwise incorporate this codebase into any machine
+     learning model, dataset, or AI system, including but not limited to large
+     language models, code-completion models, and code-search indexes.
+  6. Re-publish, mirror, or re-host this repository on any platform.
+  7. Remove, alter, or obscure this LICENSE file or any copyright notice in
+     any file in this repository.
+
+================================================================================
+NO LICENSE GRANTED
+================================================================================
+
+The mere act of GitHub displaying this code, of GitHub providing a "Fork" or
+"Download ZIP" button, or of search engines indexing this page, does NOT
+constitute a license grant. The default state is "all rights reserved." If a
+permission is not explicitly listed under "PERMITTED" above, assume it is
+prohibited.
+
+================================================================================
+COMMERCIAL LICENSING
+================================================================================
+
+Commercial licensing, integration partnerships, white-label arrangements, or
+acquisition inquiries are welcome. Contact:
+
+    Rafael Báez — psicologorafaelbaez@gmail.com
+
+================================================================================
+NO WARRANTY
+================================================================================
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM,
+OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+================================================================================
+GOVERNING LAW
+================================================================================
+
+This License shall be interpreted in accordance with the laws of the
+jurisdiction in which the Author resides, without regard to its conflict of
+law provisions.

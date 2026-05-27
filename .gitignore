@@ -1,0 +1,65 @@
+# ─────────────────────────────────────────────────────────────
+# Xcode
+# ─────────────────────────────────────────────────────────────
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+xcshareddata/WorkspaceSettings.xcsettings
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ─────────────────────────────────────────────────────────────
+# Swift Package Manager
+# ─────────────────────────────────────────────────────────────
+.build/
+.swiftpm/
+Package.resolved
+
+# ─────────────────────────────────────────────────────────────
+# CocoaPods (por si se agrega luego)
+# ─────────────────────────────────────────────────────────────
+Pods/
+Podfile.lock
+
+# ─────────────────────────────────────────────────────────────
+# OS / editores / asistentes
+# ─────────────────────────────────────────────────────────────
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+.claude/
+CLAUDE.md
+
+# ─────────────────────────────────────────────────────────────
+# Secrets — nunca commitear
+# ─────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.mobileprovision
+secrets.json
+GoogleService-Info.plist
+
+# ─────────────────────────────────────────────────────────────
+# Supabase local
+# ─────────────────────────────────────────────────────────────
+supabase/.branches/
+supabase/.temp/
+supabase/.env
+
+# ─────────────────────────────────────────────────────────────
+# Logs / temporales
+# ─────────────────────────────────────────────────────────────
+*.log
+*.tmp
+
+# Local git backup
+.git.backup-*/
